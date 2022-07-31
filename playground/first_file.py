@@ -4,16 +4,16 @@ print(tf.__version__)
 
 scalar = tf.constant(7)
 
-scalar.ndim
+print(scalar.ndim)
 
 vector = tf.constant([10, 10])
-vector
+print(vector)
 
-vector.ndim
+print(vector.ndim)
 
 matrix = tf.constant([[10,7],
-    [7,10]]))
-matrix
+    [7,10]])
+print(matrix)
 
-matrix.ndim
+print(matrix.ndim)
 
